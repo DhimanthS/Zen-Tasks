@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 13px;
+}
+
+.big {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+}
+
+.outerBorder {
+  margin: 20px 20% 20px 20%;
+  border: 1px dotted black;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.innerBorder {
+  margin: 20px 20px 20px 20px;
+  height: 3175px;
+  border: 1px dotted black;
+  border-radius: 25px;
+  position: relative;
+}
+
+b {
+  font-size: 18px;
+}
+
+p {
+  height: 275px;
+  margin: 0px auto;
+  padding-top: 125px;
+  clip-path: polygon(0 50px, 100% 0%, 100% 350px, 0 100%);
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.p1 {
+  clip-path: polygon(0 0, 100% 0%, 100% 350px, 0 100%);
+  background-color: #1f1527;
+  color: #dfd5cf;
+  top: 0px;
+  border-top: 1px hidden;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.p2 {
+  background-image: linear-gradient(to bottom, #e2e8df, #cec4bb);
+  color: #1f1527;
+  top: -50px;
+}
+
+.p3 {
+  background-image: linear-gradient(to bottom, #271930, #624b44);
+  color: #f5ebe2;
+  top: -100px;
+}
+
+.p4 {
+  background-image: linear-gradient(to bottom, #cda7ac, #f7d7ce);
+  color: #1f1527;
+  top: -150px;
+}
+
+.p5 {
+  background-image: linear-gradient(to bottom, #ffafc0, #c1a1b5);
+  color: #ffffff;
+  top: -200px;
+}
+
+.p6 {
+  background-image: linear-gradient(to bottom, #b4b6bc, #e6d9cc);
+  color: #1f1527;
+  top: -250px;
+}
+
+.p7 {
+  background-image: linear-gradient(to bottom, #18121f, #261930);
+  color: #eeaabe;
+  top: -300px;
+}
+
+.p8 {
+  background-image: linear-gradient(to bottom, #ffc2c9, #d0c5ce);
+  color: #1f1527;
+  top: -350px;
+}
+
+.p9 {
+  clip-path: polygon(0 50px, 100% 0%, 100% 100%, 0 100%);
+  background-image: linear-gradient(to bottom, #f7dbc7, #ffe3);
+  color: #1f1527;
+  top: -400px;
+  border-bottom: 1px sold black;
+}
