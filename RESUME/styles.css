@@ -1,0 +1,156 @@
+h1,
+p,
+li {
+  color: #393e46;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+  display: inline-block;
+  border-radius: 50px;
+  padding: 0.6rem;
+  border: 4px dotted #ffac41;
+  margin: 10px;
+}
+
+table hr {
+  border: none;
+}
+
+td {
+  width: 700px;
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Classes */
+
+.top-div {
+  background-color: #3a3a3a;
+  padding-top: 2%;
+  height: 28%;
+  width: 93%;
+  margin: 1%;
+  position: absolute;
+  margin-left: 3%;
+  margin-right: 5%;
+}
+
+.profileName-div {
+  position: absolute;
+  background-color: #ffac41;
+  padding: 0.3% 2%;
+  border-radius: 5px;
+  margin-left: 33%;
+  margin-top: 8.5%;
+}
+
+.profile-name {
+  padding: 0%;
+  color: black;
+  margin: 0%;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.profile-img {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 45%;
+  border: 4px dotted #ffac41;
+  width: 11.2%;
+  height: 71%;
+}
+
+.white-div {
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 9.5%;
+}
+
+.address-line {
+  margin-top: 2.5%;
+  margin-left: 19.5%;
+  font-size: 1.2rem;
+}
+
+.left-div {
+  left: 0;
+  height: 100%;
+  width: 40%;
+  margin: 0 7%;
+  position: absolute;
+}
+
+.right-div {
+  right: 0;
+  height: 100%;
+  width: 40%;
+  margin: 0 7%;
+  position: absolute;
+}
+
+.designation {
+  margin-bottom: 0%;
+  font-weight: bolder;
+}
+
+.work-date {
+  margin-left: 300px;
+}
+
+.small-txt {
+  margin: 0%;
+  padding: 0%;
+}
+
+.skills {
+  margin-left: 170px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/* Range */
+
+.slider {
+  -webkit-appearance: none;
+  background: linear-gradient(to right, #ffcc00 60%, #e0e0ec 70%);
+  width: 62%;
+  border-radius: 5px;
+  margin-left: 19%;
+  height: 8px;
+  outline: none;
+  opacity: 0.7;
+}
+
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: white;
+}
+
+.slider.range5 {
+  background: linear-gradient(to right, #ffcc00 20%, #e0e0ec 55%);
+}
+
+.slider.range6 {
+  background: linear-gradient(to right, #ffcc00 30%, #e0e0ec 65%);
+}
+
+.slider.range8 {
+  background: linear-gradient(to right, #ffcc00 80%, #e0e0ec 70%);
+}
+
+/* Verticle Line */
+
+.verticle-line {
+  border-left: 3px solid lightgrey;
+  height: 145vh;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 300px;
+}
